@@ -3,7 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   let [keyword, setKeyword] = useState("happiness");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
