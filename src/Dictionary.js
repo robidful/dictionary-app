@@ -4,7 +4,7 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 
-export default function Dictionary(props) {
+export default function Dictionary() {
   let [keyword, setKeyword] = useState("happiness");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
