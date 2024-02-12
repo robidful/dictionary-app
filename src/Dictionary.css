@@ -15,7 +15,8 @@
 }
 
 .Dictionary .hint {
-  font-size: 10px;
+  font-size: 16px;
   margin-top: 5px;
   font-family: "Lato", sans-serif;
+  opacity: 0.7;
 }
